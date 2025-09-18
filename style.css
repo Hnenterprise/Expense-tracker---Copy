@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    height: 20%;
+}
+main{
+    width: 50%;
+    margin: 20px auto;
+    border: 1px solid whitesmoke;
+    height: auto;
+}
+.main-container{
+    width: 80%;
+    margin: 20px auto ;
+}
+form div {
+    width: 100%;
+    margin-bottom: 25px;
+}
+form div input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.expense-list{
+    border: 1px solid black;
+    height: auto;
+    margin-top: 10px;
+}
+.expense-item{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 8px 10px;
+    border-top: 1px solid #eee;
+}
+.expense-item:first-child{
+    border-top: none;
+}
+#name{
+    flex: 1 1 10%;
+}
+#amount{
+    flex: 1 1 10%;
+    
+}
+#date{
+    flex: 1 1 10%;
+    
+}
+.delete-btn{
+    flex: 0 1 auto;
+    width: 20px;
+    min-width: 28px;
+    height: 28px;
+    padding: 0;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #e74c3c;
+}
+
