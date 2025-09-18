@@ -77,3 +77,12 @@ button{
     background-color: #e74c3c;
 }
 
+@media screen and (max-width:600px){
+    main{
+        width: 95%;
+    }
+    .main-container{
+        width: 90%;
+    }
+    
+}
